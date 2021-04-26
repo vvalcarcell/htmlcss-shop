@@ -25,6 +25,7 @@
 
 section {
     width: calc(1200px / 3 - 20px);
+    height: 690px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
