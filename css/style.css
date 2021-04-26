@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Utility Classes*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+/*End Utility Classes*/
+
+.container {
+    width: 1200px;
+    background-color: blueviolet;
+    margin: 30px auto;
+}
+
+section {
+    width: calc(1200px / 3 - 20px);
+    background-color: cornsilk;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 500px;
+    background-color: crimson;
+    position: relative;
+}
+
+.info-img {
+    position: absolute;
+    bottom: 5px;
+}
+
+
+.discount {
+   background-color: brown; 
+   color: white;
+   padding: 5px 10px;
+   display: inline-block;
+}
+
+.sustainability::after {
+    content: "Sostenibilità";
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.sustainability {
+    display: inline-block;
+}
+   
+
+.info {
+    height: 100px;
+    background-color: darkcyan;
+}
