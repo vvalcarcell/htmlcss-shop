@@ -50,14 +50,15 @@ section {
 
 .sustainability::after {
     content: "Sostenibilità";
-    padding: 5px;
-    background-color: rgb(6, 87, 6);
-    color: white;
 }
 
 .sustainability {
     display: inline-block;
+    background-color: rgb(6, 87, 6);
+    padding: 5px 10px;
+    color: white;
 }
+
 
 .heart::after {
     content: "\2661";
