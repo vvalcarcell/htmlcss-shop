@@ -27,7 +27,7 @@ section {
     width: calc(1200px / 3 - 20px);
     height: 690px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .img {
@@ -82,6 +82,12 @@ section {
     font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.795);
+}
+
+.levis {
+    font-size: 10px;
+    line-height: 20px;
+    vertical-align: top;
 }
 
 .price {
