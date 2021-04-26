@@ -19,13 +19,11 @@
 
 .container {
     width: 1200px;
-    background-color: blueviolet;
     margin: 30px auto;
 }
 
 section {
     width: calc(1200px / 3 - 20px);
-    background-color: cornsilk;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -53,7 +51,7 @@ section {
 .sustainability::after {
     content: "Sostenibilità";
     padding: 5px;
-    background-color: green;
+    background-color: rgb(6, 87, 6);
     color: white;
 }
 
@@ -88,6 +86,10 @@ section {
     margin-top: 8px;
 }
 
+.not-discounted-price {
+    margin-top: 8px;
+}
+
 .one {
     background-image: url('../img/1.webp');
 }
@@ -102,4 +104,41 @@ section {
 
 .two:hover {
     background-image: url('../img/2-hover.webp');
+}
+
+.three {
+    background-image: url('../img/3.webp');
+}
+
+.three:hover {
+    background-image: url('../img/3-hover.webp');
+}
+
+.green {
+    background-color: #75ac51;
+    padding: 18px 20px;
+}
+
+.four {
+    background-image: url('../img/4.webp');
+}
+
+.four:hover {
+    background-image: url('../img/4-hover.webp');
+}
+
+.five {
+    background-image: url('../img/5.webp');
+}
+
+.five:hover {
+    background-image: url('../img/5-hover.webp');
+}
+
+.six {
+    background-image: url('../img/6.webp');
+}
+
+.six:hover {
+    background-image: url('../img/6-hover.webp');
 }
